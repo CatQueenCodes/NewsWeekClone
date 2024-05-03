@@ -1,0 +1,6 @@
+.main-background-img {
+  background-image: url(/images/main/main_main.jpg);
+  height: 500px;
+  width: fit-content;
+  background-color: aqua;
+}

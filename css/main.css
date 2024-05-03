@@ -1,6 +1,42 @@
-.main-background-img {
+.main-img {
   background-image: url(/images/main/main_main.jpg);
   height: 500px;
-  width: fit-content;
   background-color: aqua;
 }
+
+.main-img-caption {
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.img-2 {
+  background-image: url(/images/main/main1.png);
+  height: 300px;
+}
+
+.img-2-caption {
+  background-color: chartreuse;
+}
+
+.img-3 {
+  background-image: url(/images/main/main2.jpg);
+  height: 300px;
+}
+
+.img-3-caption {
+  background-color: greenyellow;
+}
+
+li::marker {
+  color: red;
+}
+/* 
+.list-group-item::before {
+  content: "●";
+  margin-right: 0.75rem;
+}
+ul li::marker {
+  content: ".";
+  color: red;
+  font-size: 1.5em;
+} */

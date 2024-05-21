@@ -1,14 +1,35 @@
 .main-img {
   background-image: url(/images/main/main_main.jpg);
-  height: 500px;
-  background-color: aqua;
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
 }
 
 .main-img-caption {
-  background-color: blue;
-  color: whitesmoke;
+  color: black;
+  border-top: 4px red solid;
+  margin-top: -60px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: blur(20px);
+  /* background-image: linear-gradient(
+    rgba(140, 138, 138, 0.75),
+    rgba(255, 255, 255, 1)
+  ); */
+  /* background-image: linear-gradient(
+    rgba(255, 253, 253, 0.705),
+    rgb(239, 232, 232, 1)
+  ); */
 }
 
+.middle-wrapper {
+  margin-top: 500px;
+}
 .img-2 {
   background-image: url(/images/main/main1.png);
   height: 300px;

@@ -1,0 +1,27 @@
+a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sidebar-wrapper {
+  background-color: aqua;
+  text-align: left;
+}
+
+.sidebar-title {
+  color: red;
+  font-size: 21px;
+  text-align: left;
+}
+
+.sidebar-button {
+  width: 250px;
+  height: 56px;
+  background-color: #e5e5e5;
+  color: #757575;
+  font-size: 16px;
+}
+
+li::marker {
+  color: red;
+}
